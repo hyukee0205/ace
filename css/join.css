@@ -1,0 +1,440 @@
+/* CSS 초기화 */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+  font-size: 14px;
+  color:#222;
+  letter-spacing:-1px;
+  word-spacing:-2px;
+}
+
+body button{
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+}
+
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222
+}
+address {
+  font-style: normal;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+
+
+
+/* form */
+
+
+.join_box h2{
+  text-align: center;
+  font-size: 28px;
+  padding: 80px 0 60px;
+}
+
+.identify {
+  color:#de3c3c;
+}
+
+
+input[type='radio'],
+input[type='radio']:checked {
+  appearance: none;
+}
+
+input[type='radio'] {
+  width: 24px;
+  height: 24px;
+  display:inline-block;
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+  border:1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+input[type='radio']:checked {
+  width: 24px;
+  height: 24px;
+  display:inline-block;
+  position: relative;
+  border: 7px solid #1b8e1d;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+/* .dsp_txt{
+  display: block;
+  font-size: 12px;
+  padding: 5px 0 20px 140px;
+} */
+
+.join_box{
+    width: 1200px;
+    margin: auto;
+}
+  
+
+.join_form{
+  width: 550px;
+  margin: auto;
+  padding: 20px 45px;
+  border-top : 1px solid #222;
+  box-sizing: border-box;
+}
+
+
+.join_box .left_box{
+  display: block;
+  width: 120px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+
+
+
+.pwd_box,
+.repwd_box,
+.name_box,
+.email_box,
+.mobile_box,
+.birth_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gender_box{
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gender_sub_box{
+  display: flex;
+  width: 320px;
+  height: 46px;
+  align-items: center;
+}
+
+.gender_sub_box > div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.gender_sub_box label{
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.gender_sub_box input{
+  cursor: pointer;
+}
+
+
+.gender_box{
+  padding-bottom: 15px;
+}
+
+.id_box,
+.address_box1{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.address_box2,
+.address_box3{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.id_box input{
+  width:215px; height: 46px;
+  font-size:15px;
+  padding:0 15px 0 15px;
+  border-radius: 3px;
+  border:1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+.address_box1 input{
+  width:215px; height: 40px;
+  font-size:15px;
+  padding:0 15px 0 15px;
+  border-radius: 3px;
+  border:1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+.address_box2 input,
+.address_box3 input{
+  width:320px; height: 40px;
+  font-size:15px;
+  padding:0 15px 0 15px;
+  border-radius: 3px;
+  border:1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+.address_box2 label,
+.address_box3 label{
+ width:120px; 
+ font-weight: bold;
+}
+
+.id_box label, .address_box1 label{
+  width:140px; 
+  font-weight: bold;
+}
+
+.id_box button{
+  width:100px;
+  height: 46px;
+  background-color: #fff;
+  color: #1b8e1d;
+  border: 1px solid #1b8e1d;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  position: absolute;
+  right: 0;
+}
+
+
+.address_box1 button{
+  width:100px;
+  height: 40px;
+  background-color: #fff;
+  color: #1b8e1d;
+  border: 1px solid #1b8e1d;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  position: absolute;
+  right: 0;
+}
+
+.id_box button:hover,
+.address_box1 button:hover{
+  background-color: #1b8e1d;
+  color: #fff;
+}
+
+.address_box1{
+  margin-bottom: 5px;
+}
+.address_box2{
+  margin-bottom: 5px;
+}
+
+.pwd_box input,
+.repwd_box input,
+.name_box input,
+.email_box input,
+.mobile_box input,
+.birth_box input{
+  width:320px; height: 46px;
+  font-size:15px;
+  padding:0 15px 0 15px;
+  border-radius: 3px;
+  border:1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+.birth_box input{
+  text-align: center;
+}
+
+
+
+
+
+.id_sub_box,
+.pwd_sub_box,
+.repwd_sub_box,
+.name_sub_box,
+.email_sub_box,
+.mobile_sub_box,
+.birth_sub_box{
+  padding:5px 0 15px 140px;
+  font-size: 12px;
+  letter-spacing:-1px;
+  word-spacing: 0;
+}
+.address_sub_box{
+  padding:5px 0 7px 140px;
+  font-size: 12px;
+  letter-spacing:-1px;
+  word-spacing: 0;
+}
+
+
+
+.selectall_sub_box{
+  padding-left: 40px;
+  font-size: 12px;
+  letter-spacing:-1px;
+  word-spacing: 0;
+}
+
+.err_txt {
+  display: block;
+  color:red;
+  padding-top:3px;
+  font-weight: bold;
+}
+
+
+.apply_box{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apply_box3{
+  margin-bottom: 20px;
+}
+
+.apply_text{
+  margin-left: 3px;
+  color: #999;
+}
+
+
+.apply_box1{
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  border-top: 1px solid #000;
+}
+
+.apply_margin_box{
+  margin-bottom: 15px;
+}
+
+.apply_box2{
+  margin-bottom: 15px;
+}
+
+.apply_box input{
+  display: none;
+}
+
+.apply_box label{
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+
+}
+
+#selectall:checked + .apply_icon{
+  background-image: url("../images/check_icon2.png");
+  transition: 0.5s;
+}
+
+#apply_1:checked + .apply_icon{
+  background-image: url("../images/check_icon2.png");
+  transition: 0.5s;
+}
+
+#apply_2:checked + .apply_icon{
+  background-image: url("../images/check_icon2.png");
+  transition: 0.5s;
+}
+
+#apply_3:checked + .apply_icon{
+  background-image: url("../images/check_icon2.png");
+  transition: 0.5s;
+}
+
+.apply_icon{
+  display: block;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  background-image: url("../images/check_icon1.png");
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.apply_box > div{
+  display: flex;
+  align-items: center;
+}
+
+.more_icons {
+  display: block;
+  background: url("../images/more_icons.png");
+  width: 9px;
+  height: 9px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.apply_box a{
+  color: #1b8e1d;
+}
+
+
+
+.join_submit_box{
+  padding: 40px 0 80px;
+  border-top: 1px solid #e8e8e8;
+}
+
+
+.join_submit_box button{
+  display: block;
+  width: 220px;
+  height: 56px;
+  background-color: #fff;
+  border: 1px solid #1b8e1d;
+  color: #1b8e1d;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: auto;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+
+.join_submit_box button:hover{
+  background-color: #1b8e1d;
+  color: #fff;
+}
+
+

@@ -1,0 +1,142 @@
+/* CSS 초기화 */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+  font-size: 14px;
+  color:#222;
+  letter-spacing:-1px;
+  word-spacing:-2px;
+}
+
+body button{
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+}
+
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222
+}
+address {
+  font-style: normal;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+
+
+/* join_ok */
+
+.signup_cp{
+  width:1200px;
+  margin:auto;
+}
+
+.check_icon{
+  width: 64px;
+  height: 64px;
+  background: url("../images/order_icon.png") no-repeat;
+  margin: 50px auto 15px;
+  background-size: 90%;
+  }
+
+  
+.signup_cp h2{
+  width:500px;
+  margin:0 auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+.signup_cp_1{
+border-top: 1px solid #000;
+}
+
+.signup_cp dl{
+  display: flex;
+  padding:30px 0 30px 20px;
+  border-bottom: 1px solid #999;
+}
+
+
+
+
+.signup_cp dt{
+  width:120px;
+  font-weight: bold;
+}
+
+
+
+
+.signup_cp_box{
+  width:500px;
+  margin:30px auto 40px;
+}
+
+
+
+
+
+
+.signup_cp_btn{
+  width:336px;
+  display:flex;
+  margin:0 auto 100px;
+  justify-content: space-between;  
+  align-items: center;
+}
+
+.signup_cp_btn1 a{
+  display: flex;
+  width:160px;
+  height: 45px;
+  color:#1b8e1d;
+  border:1px solid #7FB77E;;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.signup_cp_btn2 a{
+  display: flex;
+  width:160px;
+  height: 45px;
+  color:#fff;
+  border:1px solid #1b8e1d;
+  background-color: #1b8e1d;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.signup_cp_btn1 a:hover,
+.signup_cp_btn2 a:hover{
+background-color: #84a86c;
+border:1px solid #84a86c;
+color: #fff;
+}
+
+

@@ -1,0 +1,181 @@
+/* CSS 초기화 */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+  font-size: 14px;
+  color:#222;
+  letter-spacing:-1px;
+  word-spacing:-2px;
+}
+
+body button{
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+}
+
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222
+}
+address {
+  font-style: normal;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+/* notice css */
+
+.notice_box{
+  width: 1200px;
+  margin: 60px auto 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notice_box1{
+  height: 300px;
+}
+
+
+.notice_box1 h2{
+  font-size:28px;
+  padding-bottom: 40px;
+}
+
+.notice_box ul{
+  border: 1px solid rgb(242, 242, 242);
+}
+
+.notice_txt1_color1, .notice_txt1_color2, .notice_txt1_color3{
+  width:230px;
+  height:55px;
+  padding-left:20px;
+  line-height: 55px;
+  display:block;
+  color: rgb(102, 102, 102);
+  box-sizing: border-box;
+  }
+
+.notice_box1_txt1, .notice_box1_txt2{
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.notice_txt1_color3{
+  background-color: rgb(247, 247, 247);
+  color:#1b8e1d;
+}
+
+
+
+
+
+
+
+
+
+
+.notice_box2{
+  width:930px;
+}
+
+.notice_box2 h3{
+  font-size:24px;
+  font-weight: bold;
+  padding-bottom: 45px;
+}
+
+
+.notice_list_set{
+  border-collapse: collapse;
+  width: 930px;
+}
+
+.notice_list_title{
+  border-top: 2px solid #000;
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.notice_list_writer,
+.notice_list_date{
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.v_title{
+  background-color: rgb(247, 247, 247);
+  width: 130px;
+  padding: 13px 0 13px 20px;
+  text-align: left;
+}
+
+.v_content{
+  padding-left: 23px;
+}
+
+
+.notice_list_content{
+  width:930px;
+}
+
+.v_text{
+  padding: 30px 10px 100px;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  width:930px;
+  box-sizing: border-box;
+}
+
+
+.list{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+.modify_btn,
+.remove_btn{
+  width: 120px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #84a86c;
+  transition: 0.3s;
+}
+
+.modify_btn{
+  margin-right: 10px;
+}
+
+.modify_btn:hover,
+.remove_btn:hover{
+  background-color: #1b8e1d;
+}
+
+
+
+/* jq addClass */
+
+.notice_side_hover{
+  background: rgb(247, 247, 247);
+  color:#1b8e1d;
+}

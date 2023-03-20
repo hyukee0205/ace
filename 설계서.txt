@@ -1,0 +1,42 @@
+
+xampp cmd 환경에서 DB 생성했을때
+
+* DB 생성
+create database front2
+default character set utf8
+default collate utf8_general_ci;
+
+------
+
+회원가입 table 생성
+
+create table members(
+    idx int auto_increment primary key,
+    u_id varchar(20) not null,
+    pwd varchar(20) not null,
+    u_name varchar(30) not null,
+    email varchar(50),
+    mobile varchar(15),
+    ps_code char(5),
+    addr_b varchar(100),
+    addr_d varchar(100),
+    gender char(1),
+    birth date,
+    reg_date datetime
+);
+
+공지사항 table 생성
+
+create table notice(
+    idx int auto_increment primary key,
+    n_title varchar(255) not null,
+    n_content text not null,
+    writer varchar(20) not null,
+    w_date datetime not null,
+    cnt int default 0
+);
+
+
+
+-----
+

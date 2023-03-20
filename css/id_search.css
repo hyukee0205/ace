@@ -1,0 +1,111 @@
+/* CSS 초기화 */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+  font-size: 14px;
+  color:#222;
+  letter-spacing:-1px;
+  word-spacing:-1px;
+}
+
+body button{
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+}
+
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222
+}
+address {
+  font-style: normal;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+
+body{
+  background-color: #f6f6f6;
+}
+
+form{
+  margin:auto;
+  padding:10px 0;
+}
+
+
+div{
+  margin: auto;
+  padding: 10px 0;
+  width: 420px;
+  border:1px solid #222;
+  border-radius: 3px;
+}
+
+
+
+p{
+  margin: auto;
+  width:400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+input{
+  width:215px; height: 40px;
+  font-size:15px;
+  padding:0 15px 0 15px;
+  border-radius: 3px;
+  border:1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+
+
+label{
+  width:80px; 
+  font-weight: bold;
+}
+
+
+button{
+  width:100px;
+  height: 40px;
+  background-color: #fff;
+  color: #1b8e1d;
+  border: 1px solid #1b8e1d;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  position: absolute;
+  right: 0;
+}
+
+
+button:hover{
+  background-color: #1b8e1d;
+  color: #fff;
+}
+
+legend{display: none;}
+/* fieldset{width:430px;} */
+

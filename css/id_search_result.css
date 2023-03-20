@@ -1,0 +1,104 @@
+/* CSS 초기화 */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+  font-size: 14px;
+  color:#222;
+  letter-spacing:-1px;
+  word-spacing:-1px;
+}
+
+body button{
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+}
+
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222
+}
+address {
+  font-style: normal;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+
+
+.inner{
+  width:430px;
+  margin:auto;
+  padding: 10px 3px;
+  font-weight: bold;
+}
+
+.txt_box{
+  text-align: center;
+}
+
+.sub_box{
+  width:165px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.unable{
+  color: red;
+}
+
+
+.able{
+  color: rgb(50, 136, 215);
+}
+
+
+body{
+  background-color: #f6f6f6;
+}
+
+a{
+  display: flex;
+  width:80px;
+  height: 30px;
+  background-color: #fff;
+  color: #1b8e1d;
+  border: 1px solid #1b8e1d;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+}
+
+.sel{
+  background-color: #1b8e1d;
+  color: #fff;
+}
+
+a:hover{
+  background-color: #1b8e1d;
+  color: #fff;
+}
+
+legend{display: none;}
+/* fieldset{width:430px;} */
+

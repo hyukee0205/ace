@@ -1,0 +1,310 @@
+/* CSS 초기화 */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+  font-size: 14px;
+  color:#222;
+  letter-spacing:-1px;
+  word-spacing:-2px;
+}
+
+body button{
+  font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+}
+
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222
+}
+address {
+  font-style: normal;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+
+
+/* basket css */
+.basket_title{
+width:1200px;
+text-align: center;
+font-size: 28px;
+margin: 50px auto 70px;
+}
+
+.basket_box {
+  width: 1200px;
+  height: 802px;
+  margin:0 auto 100px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.basket_chkbox {
+  width:830px;
+  position: relative;
+}
+
+.basket_chkbox .chk_box1{
+  padding-bottom: 16px;
+}
+
+.basket_chkbox .chk_box1 label{
+  font-weight: bold;
+}
+
+.basket_price_inner .basket_price_1{
+  text-align: right;
+}
+.basket_price_inner .basket_price2{
+  color: #6c6c6c;
+  font-size: 14px;
+  text-decoration: line-through;
+  text-align: right;
+}
+
+
+.selectall_sub_box{
+  padding-top: 16px;
+}
+
+.selectall_sub_box .err_txt{
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chk_box_inner_1,
+.chk_box_inner_2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  font-size: 16px;
+  position: relative;
+  font-weight: bold;
+}
+
+.chk_box_2 .basket_count{
+  position: absolute;
+  right: 150px;
+}
+
+
+.basket_chkbox input{
+  display: none;
+}
+
+.basket_chkbox label{
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.chk_icon{
+  display: block;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  background-image: url("../images/check_icon1.png");
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+
+.chk_box1{
+  font-size: 16px;
+}
+
+.chk_box_inner_1{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.chk_box_inner_2{
+  border-bottom: 1px solid #000;
+}
+
+
+
+#selectall:checked + .chk_icon{
+  background-image: url("../images/check_icon2.png");
+
+  transition: 0.5s;
+}
+
+
+#chk_1:checked + .chk_icon{
+  background-image: url("../images/check_icon2.png");
+  transition: 0.5s;
+}
+
+#chk_2:checked + .chk_icon{
+  background-image: url("../images/check_icon2.png");
+  transition: 0.5s;
+}
+
+
+
+
+
+
+.basket_paybox {
+  width:340px;
+  padding-top:48px;
+}
+
+
+.basket_paybox_border{
+  border: 1px solid #e8e8e8;
+  margin-bottom:20px;
+  box-sizing: border-box;
+}
+
+.basket_paybox_1 {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 25px 15px 15px;
+  background-color: #fefefe;
+}
+
+
+
+.basket_paybox_1_1,
+.basket_paybox_1_2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.basket_paybox_1_2{
+  margin-bottom:20px;
+}
+
+
+.basket_paybox_1_3 {
+  display: block;
+  width: 306px;
+  height: 36px;
+  border: 1px solid #1b8e1d;
+  box-sizing: border-box;
+  border-radius: 3px;
+  line-height: 36px;
+  color: #1b8e1d;
+}
+
+.basket_paybox_2 {
+  padding: 25px 15px 15px;
+  background-color: #f3f3f3;
+}
+
+.basket_paybox_2 ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+
+.basket_paybox_2_1, .basket_paybox_2_2{
+  margin-bottom:10px;
+}
+
+.basket_paybox_2_3{
+  padding-bottom:25px;
+  border-bottom:1px solid #bebebe;
+}
+
+.basket_paybox_2_4{
+  padding-top:25px;
+  margin-bottom:20px;
+}
+
+.basket_paybox_2_4_1{
+  font-size:22px;
+  font-weight:bold;
+}
+
+.basket_paybox_2_5{
+ padding-left:110px;
+}
+
+.basket_paybox_2_5_1{
+  font-size: 12px;
+  width:40px;
+  background-color:#f0c018;
+  text-align: center;
+  border-radius: 10px;
+  color:#fff;
+  font-weight: bold;
+  line-height:19px;
+}
+
+
+.basket_paybox_2_5_2{
+  font-size: 14px;
+  letter-spacing:-1px;
+}
+
+.basket_paybox_2_5_3{
+  font-size: 14px;
+  letter-spacing:-1px;
+  color:#6c6c6c
+}
+
+.basket_paybox_3 button{
+  width:340px;
+  height:50px;
+  background-color: #1b8e1d;
+  color:#fff;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size:16px;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+
+.basket_paybox_3 button:hover{
+  background-color: #84a86c;
+}
+
+.basket_paybox_3{
+  margin-bottom: 20px;
+}
+
+.basket_note{
+  font-size:13px;
+}
+
+.basket_note li{
+  margin-bottom:5px;
+  color:#6c6c6c;
+}
+
+
+
+  
+
+  

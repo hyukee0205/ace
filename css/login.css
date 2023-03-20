@@ -1,0 +1,160 @@
+/* CSS 초기화 */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+    font-size: 14px;
+    color:#222;
+    letter-spacing:-1px;
+    word-spacing:-2px;
+  }
+  
+  body button{
+    font-family: "Noto Sans","나눔고딕", "맑은 고딕", "돋움";
+  }
+  
+  ul,li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #222
+  }
+  address {
+    font-style: normal;
+  }
+  button {
+    background: inherit;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    overflow: visible;
+    cursor: pointer;
+  }
+  .hide {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+  
+  
+  
+  
+/* login */
+
+
+.login{
+    width:1200px;
+    margin:0 auto;
+}
+
+.login > h2 {
+  text-align: center;
+  padding: 80px 0 30px;
+  font-size: 24px;
+}
+
+
+.login_box{
+  width:380px;
+  margin: 0 auto 100px;
+}
+
+.id_box1{
+  margin-bottom: 12px;
+}
+
+.id_box2 input{
+  width:380px;
+  height:56px;
+  font-size: 14px;
+  padding:0 11px 0 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  box-sizing: border-box;
+} 
+
+
+.pwd_box2 input{
+  width:380px;
+  height:56px;
+  font-size: 14px;
+  padding:0 11px 0 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+
+.login_submit_box button{
+  border:1px solid #1b8e1d;
+  background-color: #1b8e1d;
+  color: #fff;
+}
+
+.join_box a{
+  display: flex;
+  border:1px solid #1b8e1d;
+  background-color: #fff;
+  color: #1b8e1d;
+  align-items: center;
+  justify-content: center;
+}  
+
+.login_submit_box button:hover,
+.join_box a:hover{
+  background-color: #84a86c;
+  border:1px solid #84a86c;
+  color: #fff;
+}
+
+.login_submit_box button,
+.join_box a{
+  width: 380px;
+  height: 56px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+
+.user_menu a{
+  font-size: 13px;
+  color: #6c6c6c;
+}
+
+.user_menu{
+  display: flex;
+  margin: 10px 0 30px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+.user_line{
+  position: relative;
+  top: 1px;
+  width: 1px;
+  height: 13px;
+  background-color: rgb(217, 217, 217);
+  margin: 0 6px 0 7px;
+  border-radius: 0.5px;
+}
+
+
+ .err_txt{
+    display:block;
+    font-size: 12px;
+    color:red;
+    font-weight: bold;
+    margin:8px 0 12px;
+  }
+
