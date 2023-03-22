@@ -1,18 +1,26 @@
 
-# ACE 에이스
-<p>
-<img width='150px' src='https://user-images.githubusercontent.com/107531168/226821345-02ec8831-fb50-4f8f-9c9b-c8021418746e.png'>
-</p>
-
-배포 : [http://hyukee0205.dothome.co.kr/ace](http://hyukee0205.dothome.co.kr/ace)
+# ACE
 
 ## 🧑🏻‍💻 프로젝트 소개 
 
-설명 : ACE는 식자재 웹 쇼핑몰입니다. CSS와 JavaScript를 활용하여 직관적이고 실제 웹사이트를 사용하는 느낌을 주기 위해 노력했습니다.  
+<p align='center'>
+<img width='150px' src='https://user-images.githubusercontent.com/107531168/226821345-02ec8831-fb50-4f8f-9c9b-c8021418746e.png'>
+</p>
 
-Stack : HTML, CSS, JavaScript, jQuery, PHP, MySql 
+🙋🏻‍♂️ ACE는 식자재 웹 쇼핑몰입니다. CSS와 JavaScript를 활용하여 직관적이고 실제 웹사이트를 사용하는 느낌을 주기 위해 노력했습니다.  
 
-##   🙂 주요 기능 
+배포 : [http://hyukee0205.dothome.co.kr/ace](http://hyukee0205.dothome.co.kr/ace)
+
+## 📚 Stack
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jQuery&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=PHP&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
+
+
+##  🙂 주요 기능 
 
 ###  ✅ 회원가입
 
